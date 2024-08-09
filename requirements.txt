@@ -1,3 +1,2 @@
-pygame
-mysql-connector-python
-
+Flask==2.0.3
+mysql-connector-python==8.0.27
