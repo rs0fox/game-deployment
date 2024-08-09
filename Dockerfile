@@ -7,5 +7,5 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-EXPOSE 5000
-CMD ["python", "app.py"]
+EXPOSE 8080  # Change this if your game uses a different port
+CMD ["python", "game.py"]
